@@ -12,3 +12,5 @@ cd ~
 ssh-keygen -t rsa
 heroku keys:add
 git config --global core.editor emacs
+sudo apt-get install libpq-dev
+bundle install
