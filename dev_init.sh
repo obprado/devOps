@@ -7,3 +7,4 @@ sudo apt-get install -y git-core
 rvm requirements
 sudo apt-get install -y ruby irb rdoc
 gem install rails
+wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
