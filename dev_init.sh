@@ -8,3 +8,6 @@ rvm requirements
 sudo apt-get install -y ruby irb rdoc
 gem install rails
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+cd ~
+ssh-keygen -t rsa
+heroku keys:add
