@@ -6,10 +6,10 @@ sudo apt-get install -y git-core
 sudo apt-get install -y mercurial
 
 #installing node.js for a js runtime
-sudo apt-get install python-software-properties python g++ make
+sudo apt-get install -y python-software-properties python g++ make
 sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get update
-sudo apt-get install nodejs
+sudo apt-get install -y nodejs
 
 
 #\curl -L http://get.rvm.io | bash -s stable --ruby
@@ -17,6 +17,7 @@ sudo apt-get install nodejs
 #rvm requirements
 ###sudo apt-get install -y ruby irb rdoc
 #gem install rails
+#gem install bundler -v '= 1.5.1'
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 cd ~
 ssh-keygen -t rsa
