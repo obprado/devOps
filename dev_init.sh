@@ -13,8 +13,8 @@ sudo apt-get install nodejs
 
 
 #\curl -L http://get.rvm.io | bash -s stable --ruby
-#rvm requirements
 #source /usr/local/rvm/scripts/rvm
+#rvm requirements
 ###sudo apt-get install -y ruby irb rdoc
 #gem install rails
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
